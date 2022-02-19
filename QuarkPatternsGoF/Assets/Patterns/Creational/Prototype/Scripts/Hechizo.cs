@@ -23,7 +23,9 @@ public class Hechizo : ScriptableObject, IClonable, IDeepClonable
 
     public object DeepClone()
     {
-        var newClone = this.MemberwiseClone() as Hechizo;
+        var newClone = ScriptableObject.CreateInstance<Hechizo>();
+        newClone.daño = this.daño;
+        newClone.alcance = this.alcance;
         newClone.textoADesplegar = String.Copy(this.textoADesplegar);
         return newClone;
     }

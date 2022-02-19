@@ -9,9 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a39f8a630b229c41afefd469b1557a9, type: 3}
-  m_Name: Fueguito
+  m_Script: {fileID: 11500000, guid: 56e66c2170ec76e448fde190a001fa98, type: 3}
+  m_Name: Warrior
   m_EditorClassIdentifier: 
-  "da\xF1o": 4
-  alcance: 5
-  textoADesplegar: 
+  _className: Warrior
+  _description: This class allows you use sword
