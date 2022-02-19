@@ -4,7 +4,7 @@ using System.Linq;
 using System.Collections.Generic;
 using System;
 
-[CreateAssetMenu(menuName = "Factorys/EnemyConfiguration")]
+[CreateAssetMenu(menuName = "Patterns/Factorys/EnemyConfiguration")]
 public class EnemyFactoryConfig : ScriptableObject
 {
     private Dictionary<string, Type> enemysByName;
