@@ -24,9 +24,7 @@ public class PlayerConsumer : MonoBehaviour
         _heroBuilder.HeroWithRace(_heroRaces[raceIndex]);
         _heroBuilder.HeroWithWeapon(_heroWeapons[weaponIndex]);
         _heroBuilder.Build(_hero);
-        
-
-        
+ 
     }
     
 }
