@@ -27,5 +27,6 @@ public class EnemyFactoryConfig : ScriptableObject
         return enemysByName;
 
     }
+
     
 }
